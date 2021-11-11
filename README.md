@@ -4,8 +4,8 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyentrongnghia142/CommonLit-Readability-Prize/blob/master/Report.ipynb)
 * **Nhóm 4**:
   - 1712615 - Nguyễn Trọng Nghĩa - [GitHub](https://github.com/nguyentrongnghia142)
-  -
-  -
+  - 
+  - 1712718 - Huỳnh Thanh Sang - [GitHub](https://github.com/hts7117)
   -
 
 * Trong đồ án này,nhóm tìm hiểu và cài đặt lại hoặc có cải tiến (nếu có) dựa trên một giải pháp [có sẵn](https://www.kaggle.com/c/commonlitreadabilityprize/discussion/258148) (Đứng thứ 4 trên private Leaderboard) cho [bài toán](https://www.kaggle.com/c/commonlitreadabilityprize/overview) trên Kaggle.
