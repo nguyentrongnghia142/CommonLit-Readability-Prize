@@ -4,7 +4,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyentrongnghia142/CommonLit-Readability-Prize/blob/master/Report.ipynb)
 * **Nhóm 4**:
   - 1712615 - Nguyễn Trọng Nghĩa - [GitHub](https://github.com/nguyentrongnghia142)
-  - 
+  - 1712683 - Phạm Hoàng Phương - [GitHub](https://github.com/superman19993)
   - 1712718 - Huỳnh Thanh Sang - [GitHub](https://github.com/hts7117)
   -
 
