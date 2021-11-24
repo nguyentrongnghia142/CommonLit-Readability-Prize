@@ -1,7 +1,7 @@
 # CommonLit-Readability-Prize
 
 ## Khoa học dữ liệu và ứng dụng
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyentrongnghia142/CommonLit-Readability-Prize/blob/master/Report.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nguyentrongnghia142/CommonLit-Readability-Prize/blob/Phuong/Report.ipynb)
 
 * **Nhóm 4**:
   - 1712615 - Nguyễn Trọng Nghĩa - [GitHub](https://github.com/nguyentrongnghia142)
