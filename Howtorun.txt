@@ -1,14 +1,17 @@
 # Quá trình huấn luyện
 B1: Chạy từ đầu đến hết mục "Thư viện" (sau khi cài đặt các thư viện cần thiết) -> Restart runtime notebook 
 B2: Tiếp tục chạy notebook đến hết mục "Training" 
-	(Chương trình sẽ thực hiện luyện với mô hình deberta_base mặc định ban đầu nhóm đặt và các config tương ứng seed 48, fold 1 )
+	(Chương trình sẽ thực hiện huấn luyện với mô hình deberta_base mặc định ban đầu nhóm đặt và các config tương ứng seed 48, fold 1 )
 
 + Ghi chú:  - Có thể lựa chọn huấn luyện  với các mô hình khác bằng cách thay thế tên mô hình với tên các mô hình có trong file commonlitreadabilityprize/hyperparams.yml và một số config tương ứng
-		       - Thay đổi ở trong phần code mục "main" là con của mục "Training"
-+ Chú ý: Một số mô hình có kích thước rất lớn và cần một số thư viện tương thích.
+		       - Điều chỉnh phần code ở hàm main  trong mục "main" là con của mục lớn "Training" .
+		       - Chi tiết thực hiện: Điều chỉnh một số biến như  default_config = "ten-mo-hinh" , args.fold = "fold-huan-luyen", args.seed =  "seed-huan-luyen".
+
++ Chú ý:  - Một số mô hình có kích thước rất lớn và cần một số thư viện tương thích.
+		  - Trung bình huấn luyện 2-3 fold/1day/1account đối với các mô hình kích thước trung bình nhỏ (Vì giới hạn tài nguyên gpu colab).
 	
 # Inference , submission và kết quả huấn luyện của nhóm 
-Tiếp tục chạy từ "Lấy kết quả của nhóm" đến hết file.
+Tiếp tục chạy từ mục "Lấy kết quả của nhóm" đến hết file.
 
-+ Chú ý :  - Thời gian lấy kết quả nhóm khá lâu (kích thước file  khá lớn, chứa 4 mô hình được huấn luyện với 5 fold và 5 seed khác nhau ở version 1 nhóm đã làm).
-		   -  Kết quả Version 2  có thể xem trên file submission trên kaggle của nhóm. (Link nằm trong file Report)
++ Chú ý :  - Thời gian lấy kết quả nhóm khá lâu (kích thước file  khá lớn >8G, chứa 4 mô hình được huấn luyện với 5 fold và 5 seed khác nhau ở version 1 nhóm đã làm).
+		   -  Kết quả Version 2  có thể xem trên file submission trên kaggle của nhóm (Link nằm trong file Report).
